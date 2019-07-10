@@ -1,0 +1,113 @@
+/* Navigation Header*/
+/* header {
+	width: 100%;
+	float: left;
+	padding: 41px 0px;
+}
+
+	
+
+#nav {
+	width: 460px;
+	float: right;
+	padding: 7px 0px;
+}
+
+#nav nav {
+	float: left;
+	width: 100%;
+}
+
+#nav nav ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav nav ul li {
+	display: inline-block;
+}
+
+#nav nav ul li a {
+    color: #777777;
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 38px;
+	font-family: MontserratR;
+}
+
+#nav nav ul li:last-child a {
+    padding: 0;
+} */
+/* write your styles here */
+h1,.top{
+    font-family: 'Josefin Sans', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color:#ed484c;
+    color: white;
+    border: 0;
+    padding: 0;
+    display: grid;
+    justify-content: end;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    background-color: #4c4c4c;
+    border: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+li{
+    float: right;
+}
+
+li a{
+     display: block;  
+      margin-left: 10px;
+      text-decoration: none;
+      color: white;
+}
+
+#info{
+    background-color: #f18d97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+ }
+
+ .intro{
+     border: 1px solid black;
+     border-right: none;  
+     border-left:  none;
+     padding: 10px;
+ }
+
+ button{
+     background-color: black;
+     padding: 10px 30px;
+     margin-bottom: 10px;
+     color: #f18d97;
+     border: none;
+
+
+ }
+
+ #services{
+     background-color: #efece7;
+ }
