@@ -80,6 +80,20 @@ let whatsapp = {
             contact: "0322222298",
             profilePic: "image",
         },
+        {
+            name: "Areeba khan",
+            lastmessage: "Hahahahahaah......",
+            time: "3:56 AM",
+            contact: "0356666688",
+            profilePic: "image",
+        },
+        {
+            name: "Ramsha khan",
+            lastmessage: "Kal bt karen??",
+            time: "9:30 PM",
+            contact: "0340345698",
+            profilePic: "image",
+        }
 
 
     ]
