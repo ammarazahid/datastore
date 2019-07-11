@@ -2,14 +2,15 @@ let techkaro = {
     name: "Tech Karo",
     about: "A Web Dev Course",
     description: "This program is held for womens.atfer this program every women and girl will change her life every girl can do every thing.Now female loves tech.",
-    students: [{
+    students: [
+        {
             name: "Ammara",
             age: 19,
             email: "ammarazahid845@gmail.com",
             group: "B",
             gender: "Female",
             address: "Korangi,karachi",
-            contact: "03408589699",
+            contact: "03408589699"
         },
         {
             name: "Abeera",
@@ -18,7 +19,7 @@ let techkaro = {
             group: "B",
             gender: "Female",
             address: "karachi",
-            contact: "0346807587",
+            contact: "0346807587"
         },
         {
             name: "Ramsha",
@@ -27,7 +28,7 @@ let techkaro = {
             group: "B",
             gender: "Female",
             address: "Garden,karachi",
-            contact: "05359724444",
+            contact: "05359724444"
         },
         {
             name: "Areeba",
@@ -36,7 +37,7 @@ let techkaro = {
             group: "B",
             gender: "Female",
             address: "Garden,karachi",
-            contact: "0346788889",
+            contact: "0346788889"
         },
         {
             name: "Tooba",
@@ -45,7 +46,7 @@ let techkaro = {
             group: "B",
             gender: "Female",
             address: "Malir,karachi",
-            contact: "021-45687799",
+            contact: "021-45687799"
         },
         {
             name: "Ayesha",
@@ -54,7 +55,7 @@ let techkaro = {
             group: "B",
             gender: "Female",
             address: "Malir,karachi",
-            contact: "03456666699",
+            contact: "03456666699"
         }
     ]
 }
@@ -66,33 +67,39 @@ let whatsapp = {
     about: "for contact and fun",
     description: "In this we can make a call,video call, we can send messages,we can upload pictures and status as well.",
     howToUse: "For using this we need wifi connection or data connection",
-    contacts: [{
+    contacts: [
+        {
             name: "Miss Abeera",
             lastmessage: "Kal bt karen??",
-            time: "9:30 PM",
+            time: "9:30 PM yesterday",
             contact: "0340345698",
-            profilePic: "image",
+            profilePic: url(images / dp1.png),
+            isUnread: "true"
+
         },
         {
             name: "Miss Khair-un-nisa",
             lastmessage: "Miss",
             time: "3:56 PM",
             contact: "0322222298",
-            profilePic: "image",
+            profilePic: url(images / dp2.png),
+            isUnread: "false"
         },
         {
             name: "Areeba khan",
             lastmessage: "Hahahahahaah......",
             time: "3:56 AM",
             contact: "0356666688",
-            profilePic: "image",
+            profilePic: url(images/dp1.png),
+            isUnread: "true"
         },
         {
             name: "Ramsha khan",
             lastmessage: "Kal bt karen??",
             time: "9:30 PM",
             contact: "0340345698",
-            profilePic: "image",
+            profilePic: url(images / dp4.png),
+            isUnread: "true"
         }
 
 
