@@ -102,18 +102,67 @@ let kolachi = {
             Gender: "Male",
             maritalStatus: "unmarried",
             salary: 15000,
-            age: 27,
+            age: 23,
             designation: "security guard",
             qualification: "matric",
             contact: "09876543211",
             address: "Tin talwar"
         },
         {
+            name: "Ammad khan",
+            fatherName: "ahmed",
+            Gender: "Male",
+            maritalStatus: "unmarried",
+            salary: 16000,
+            designation: "security guard",
+            age: 21,
+            qualification: "Intermediate",
+            contact: "03976543211",
+            address: "Quaidabad"
+        },
+        {
+            name: "Ali Ahmed",
+            fatherName: "Ahmed shahzad",
+            Gender: "Male",
+            maritalStatus: "unmarried",
+            salary: 15000,
+            age: 24,
+            designation: "security guard",
+            qualification: "Matric",
+            contact: "02476543211",
+            address: "malir"
+        },
+        {
+            name: "Nadir shah",
+            fatherName: "Ahad shah",
+            Gender: "Male",
+            maritalStatus: "unmarried",
+            salary: 16000,
+            age: 27,
+            designation: "security guard",
+            qualification: "Matric",
+            contact: "03092223211",
+            address: "model colony"
+        },
+        {
+            name: "imran ali",
+            fatherName: "Muhammad ibad ali",
+            Gender: "Male",
+            maritalStatus: "unmarried",
+            designation: "security guard",
+            salary: 16000,
+            age: 20,
+            qualification: "Matric",
+            contact: "0309223456",
+            address: "Clifton"
+        },
+        {
             name: "Noman khan",
             fatherName: "Arshad",
             Gender: "Male",
             maritalStatus: "unmarried",
             salary: 40000,
+            designation: "security guard",
             age: 27,
             qualification: "Masters in food science",
             contact: "09876543211",
@@ -126,6 +175,7 @@ let kolachi = {
             maritalStatus: "unmarried",
             salary: 40000,
             age: 27,
+            designation: "security guard",
             qualification: "Masters in food science",
             contact: "09876543211",
             address: "Tin talwar"
@@ -137,6 +187,7 @@ let kolachi = {
             maritalStatus: "unmarried",
             salary: 40000,
             age: 27,
+            designation: "security guard",
             qualification: "Masters in food science",
             contact: "09876543211",
             address: "Tin talwar"
@@ -147,6 +198,7 @@ let kolachi = {
             Gender: "Male",
             maritalStatus: "unmarried",
             salary: 40000,
+            designation: "security guard",
             age: 27,
             qualification: "Masters in food science",
             contact: "09876543211",
@@ -158,61 +210,18 @@ let kolachi = {
             Gender: "Male",
             maritalStatus: "unmarried",
             salary: 40000,
+            designation: "security guard",
             age: 27,
-            qualification: "Masters in food science",
+            qualification: "Matric",
             contact: "09876543211",
             address: "Tin talwar"
         },
         {
-            name: "Noman khan",
+            name: "M.ali",
             fatherName: "Arshad",
             Gender: "Male",
             maritalStatus: "unmarried",
-            salary: 40000,
-            age: 27,
-            qualification: "Masters in food science",
-            contact: "09876543211",
-            address: "Tin talwar"
-        },
-        {
-            name: "Noman khan",
-            fatherName: "Arshad",
-            Gender: "Male",
-            maritalStatus: "unmarried",
-            salary: 40000,
-            age: 27,
-            qualification: "Masters in food science",
-            contact: "09876543211",
-            address: "Tin talwar"
-        },
-        {
-            name: "Noman khan",
-            fatherName: "Arshad",
-            Gender: "Male",
-            maritalStatus: "unmarried",
-            salary: 40000,
-            age: 27,
-            qualification: "Masters in food science",
-            contact: "09876543211",
-            address: "Tin talwar"
-        },
-        {
-            name: "Noman khan",
-            fatherName: "Arshad",
-            Gender: "Male",
-            maritalStatus: "unmarried",
-            salary: 40000,
-            age: 27,
-            qualification: "Masters in food science",
-            contact: "09876543211",
-            address: "Tin talwar"
-        },
-        {
-            name: "Noman khan",
-            fatherName: "Arshad",
-            Gender: "Male",
-            maritalStatus: "unmarried",
-            salary: 40000,
+            salary: 15000,
             age: 27,
             designation: "security guard",
             qualification: "Matric",
@@ -227,31 +236,31 @@ let kolachi = {
             salary: 14500,
             age: 27,
             designation: "security guard",
-            qualification: "Masters in food science",
+            qualification: "MAtric",
             contact: "09876543211",
             address: "landhi"
         },
         {
-            name: "Noman khan",
-            fatherName: "Arshad",
+            name: "Maqsoood Alam",
+            fatherName: "Alam",
             Gender: "Male",
             maritalStatus: "unmarried",
-            salary: 40000,
-            age: 27,
+            salary: 18000,
+            age: 24,
             qualification: "Matric",
-            contact: "0239455211",
+            contact: "0212345678",
             designation: "security guard",
             address: "korangi"
         },
         {
-            name: "Noman khan",
-            fatherName: "Arshad",
+            name: "Immad ali",
+            fatherName: "khursheed ali",
             Gender: "Male",
-            maritalStatus: "married",
-            salary: 40000,
-            age: 27,
+            maritalStatus: "Unmarried",
+            salary: 20000,
+            age: 23,
             qualification: "Matric",
-            contact: "03476543211",
+            contact: "03415678904",
             address: "malir",
             designation: "security guard"
         }
@@ -476,18 +485,34 @@ let kolachi = {
         "prawn",
         "sea foods",
         "hot dogs",
-        "hot wings"
+        "hot wings",
+        "chicken shashlik",
+        "souce and chili prawn",
+        "seekh kabab",
+        "beaf reshmi kabab",
+        "chicken behari boti",
+        "chicken beahri kabab",
+        "nehari",
+        "chcekn nehari",
+        "lasania",
+        "pasta",
+        ""
     ],
     fastFood: [
         "zinger",
         "burger",
-        "checken burger",
+        "chicken burger",
         "beaf burger",
         "broast",
         "gol gappe",
         "chart"
     ],
     deserts: [
+        "coaktail",
+        "kesar peda",
+        "falooda",
+        "rasmalai",
+        "barfi",
         "chocolate cake",
         "kheer",
         "custard",
@@ -537,9 +562,227 @@ let kolachi = {
         },
         {
             name: "biryani",
+            price: 2000
+        },
+        {
+            name: "prawn",
+            price: 700
+        },
+        {
+            name: "malai boti",
+            price: 1000
+        },
+        {
+            name: "mayo roll",
             price: 200
+        },
+        {
+            name: "chicken shashlik",
+            price: 1500
+        }, 
+        {
+            name: "cocktail",
+            price : 700
+        },
+        {
+            name: "rasmalai",
+            price : 500
+        },
+        {
+            name: "ice cream",
+            price : 1000
+        },
+        {
+            name: "sweet",
+            price : 400
+        },
+        {
+            name: "beaf kabab",
+            price : 300,
+        },
+        {
+            name: "reshmi kabab",
+            price : 500
+        },
+        {
+            name: "gola kabab",
+            price : 300
+        },
+        {
+            name: "chili prawn",
+            price : 1300
+        },
+        {
+            name: "handi",
+            price : 2000
 
+        }, 
+        {
+            name: "mandi",
+            price : 1000
+        },
+        {
+            name: "kheer",
+            price : 900
+        },
+        {
+            name: "tikka boti",
+            price : 1500
+        },
+        {
+            name: "chaomin",
+            price : 500
+        },
+        {
+            name: "chicken shuarma",
+            price : 200
+        },
+        {
+            name: "chicken mancholian",
+            price : 2000
+        },
+        {
+            name: "palao",
+            price : 1700
+        },
+        {
+            name: "cheese roll",
+            price : 200
+        },
+        {
+            name: "beahri boti",
+            price : 2200
+        },
+        {
+            name: "nihari",
+            price : 500
+        },
+        {
+            name: "chicken nihari",
+            price : 700
+        },
+        {
+            name: "chicjen balls",
+            price : 300
+        },
+        {
+            name: "paya",
+            price : 2300
+        },
+        {
+            name: "mutton",
+            price : 3000
+        },
+        {
+            name: "mutton chops",
+            price : 2400
+        },
+        {
+            name: "hot dogs",
+            price : 1000
+        },
+        {
+            name: "chicken wings",
+            price : 800,
+        },
+        {
+            name: "burger",
+            price : 200
+        },
+        {
+            name: "zinger",
+            price : 500
+        },
+        {
+            name: "beaf burger",
+            price : 400
+        },
+        {
+            name: "pizza(fajita)small",
+            price : 1000
+        },
+        {
+            name: "pizza(tikka)small",
+            price : 1000
+        },
+        {
+            name: "pizza(malai)small",
+            price : 1000
         }
     ],
+    deal1: [
+        {
+            price: 1000,
+            menu: [
+               "tikka",
+               "Roll",
+               "coldrink",
+               "fries",
+        ]       
+        }
+    ],
+    deal2: [
+        {
+            price: 2000,
+            menu: [
+                "chciken shashlik",
+                "chaommin",
+                "coldrinks",
+                "fries"
+            ]
+        }
+    ],
+    deal3: [
+        {
+            price: 3000,
+            menu: [
+                "mandi",
+                "mutton chops",
+                "coldrink",
+                "coaktail"
+            ]
+        }
+    ],
+    deal4: [
+       {
+            price: 3300,
+            menu: [
+                "chicken mancholian",
+                "desert",
+                "prawn",
+                "fish",
+                "coldrink"
+            ]
+       }   
+    ],
+    deal5: [
+        {
+            price: 4000,
+            menu: [
+                "prawn",
+                "mandi",
+                "chicken chaomin",
+                "fries",
+                "coldrink",
+                "hot dogs",
+                "desert"
+            ]
+        }
+    ],
+    deal6: [
+        {
+            price: 5000,
+            menu: [
+                "mandi",
+                "mutton",
+                'hot wings',
+                "desert",
+                "prawwn",
+                "cheese naan",
+                "coldrinks"
+            ]
+        }
+    ],
+    
 
 }
