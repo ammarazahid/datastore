@@ -219,6 +219,51 @@ let whatsapp = {
             profilePic: url(images / dp4.png),
             isUnread: "false",
             isStatusUploaded : "true"
+        },
+        {
+            name: "saima Phoppo",
+            lastmessage: "acha",
+            time: "9:40 pM yesterday",
+            contact: "0349874563",
+            profilePic: url(images / dp4.png),
+            isUnread: "false",
+            isStatusUploaded : "true"
+        },
+        {
+            name: "Immad",
+            lastmessage: ":)",
+            time: "9:40 AM today",
+            contact: "0340789651",
+            profilePic: url(images / dp4.png),
+            isUnread: "false",
+            isStatusUploaded : "true"
+        },
+        {
+            name: "Mahnoor",
+            lastmessage: ";(",
+            time: "9:40 AM yesterday",
+            contact: "03408756210",
+            profilePic: url(images / dp4.png),
+            isUnread: "false",
+            isStatusUploaded : "true"
+        },
+        {
+            name: "mahnoor naz tk",
+            lastmessage: "home work krliya",
+            time: "3:49 AM today",
+            contact: "0349887456",
+            profilePic: url(images / dp4.png),
+            isUnread: "false",
+            isStatusUploaded : "true"
+        },
+        {
+            name: "aeni",
+            lastmessage: ":)",
+            time: "5:17 AM yesterday",
+            contact: "0349865456",
+            profilePic: url(images / dp4.png),
+            isUnread: "false",
+            isStatusUploaded : "true"
         }
 
     ]
