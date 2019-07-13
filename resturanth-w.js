@@ -161,48 +161,48 @@ let kolachi = {
             fatherName: "Arshad",
             Gender: "Male",
             maritalStatus: "unmarried",
-            salary: 40000,
+            salary: 20000,
             designation: "security guard",
             age: 27,
-            qualification: "Masters in food science",
+            qualification: "Matric",
             contact: "09876543211",
             address: "Tin talwar"
         },
         {
-            name: "Noman khan",
-            fatherName: "Arshad",
+            name: "shariq",
+            fatherName: "Ali",
             Gender: "Male",
             maritalStatus: "unmarried",
-            salary: 40000,
-            age: 27,
+            salary: 20000,
+            age: 23,
             designation: "security guard",
-            qualification: "Masters in food science",
-            contact: "09876543211",
-            address: "Tin talwar"
+            qualification: "Matric",
+            contact: "0345698752",
+            address: "Muhammad ali society"
         },
         {
-            name: "Noman khan",
-            fatherName: "Arshad",
+            name: "Uzair khan",
+            fatherName: "ahmed khan",
             Gender: "Male",
             maritalStatus: "unmarried",
-            salary: 40000,
-            age: 27,
+            salary: 20000,
+            age: 24,
             designation: "security guard",
-            qualification: "Masters in food science",
-            contact: "09876543211",
-            address: "Tin talwar"
+            qualification: "No education",
+            contact: "03258936211",
+            address: "clifton"
         },
         {
-            name: "Noman khan",
-            fatherName: "Arshad",
+            name: "Yasir hussain",
+            fatherName: "hussain",
             Gender: "Male",
             maritalStatus: "unmarried",
-            salary: 40000,
+            salary: 20000,
             designation: "security guard",
             age: 27,
-            qualification: "Masters in food science",
-            contact: "09876543211",
-            address: "Tin talwar"
+            qualification: "Matric",
+            contact: "03476543211",
+            address: "defence"
         },
         {
             name: "Noman khan",
@@ -444,7 +444,9 @@ let kolachi = {
         "advertismnent expense",
         "salaries expenses",
         "Decoration expenses",
-        "Cooking exprenses"
+        "Cooking expenses",
+        "grocery expenses",
+        "crocary expenses"
     ],
     menu: [
         "fish",
@@ -505,7 +507,8 @@ let kolachi = {
         "beaf burger",
         "broast",
         "gol gappe",
-        "chart"
+        "chart",
+        "French fries"
     ],
     deserts: [
         "coaktail",
@@ -544,49 +547,49 @@ let kolachi = {
             name: "fanta",
             price: [
                 {
-                regular: 50,
-                oneLtr: 80,
-                cane: 50,
-                twoLtr: 100,
-                twoAndHalfLtr: 150
-            }
-        ]
+                    regular: 50,
+                    oneLtr: 80,
+                    cane: 50,
+                    twoLtr: 100,
+                    twoAndHalfLtr: 150
+                }
+            ]
         },
         {
             name: "pepsi",
             price: [
                 {
-                regular: 50,
-                oneLtr: 80,
-                cane: 50,
-                twoLtr: 100,
-                twoAndHalfLtr: 150
-            }
-        ]
+                    regular: 50,
+                    oneLtr: 80,
+                    cane: 50,
+                    twoLtr: 100,
+                    twoAndHalfLtr: 150
+                }
+            ]
         },
         {
             name: "cococola",
             price: [
                 {
-                regular: 50,
-                oneLtr: 80,
-                cane: 50,
-                twoLtr: 100,
-                twoAndHalfLtr: 150
-            }
-        ]
+                    regular: 50,
+                    oneLtr: 80,
+                    cane: 50,
+                    twoLtr: 100,
+                    twoAndHalfLtr: 150
+                }
+            ]
         },
         {
             name: "sprit",
             price: [
                 {
-                regular: 50,
-                oneLtr: 80,
-                cane: 50,
-                twoLtr: 100,
-                twoAndHalfLtr: 150
-            }
-        ]
+                    regular: 50,
+                    oneLtr: 80,
+                    cane: 50,
+                    twoLtr: 100,
+                    twoAndHalfLtr: 150
+                }
+            ]
         },
         {
             name: "due",
@@ -597,19 +600,19 @@ let kolachi = {
                 twoLtr: 100,
                 twoAndHalfLtr: 150
             }
-        ]
+            ]
         },
         {
             name: "seven up",
             price: [
                 {
-                regular: 50,
-                oneLtr: 80,
-                cane: 50,
-                twoLtr: 100,
-                twoAndHalfLtr: 150
-            }
-        ]
+                    regular: 50,
+                    oneLtr: 80,
+                    cane: 50,
+                    twoLtr: 100,
+                    twoAndHalfLtr: 150
+                }
+            ]
         }
     ],
     dishesPrice: [
@@ -789,101 +792,213 @@ let kolachi = {
     ],
     deal1: [
         {
-        price: 1000,
-        menu: [
-            "tikka",
-            "Roll",
-            "coldrink",
-            "fries",
-        ]
-    }
-],
+            price: 1000,
+            menu: [
+                "tikka",
+                "Roll",
+                "coldrink",
+                "fries",
+            ]
+        }
+    ],
     deal2: [
         {
-        price: 2000,
-        menu: [
-            "chciken shashlik",
-            "chaommin",
-            "coldrinks",
-            "fries"
-        ]
-    }
-],
+            price: 2000,
+            menu: [
+                "chciken shashlik",
+                "chaommin",
+                "coldrinks",
+                "fries"
+            ]
+        }
+    ],
     deal3: [
         {
-        price: 3000,
-        menu: [
-            "mandi",
-            "mutton chops",
-            "coldrink",
-            "coaktail"
-        ]
-    }
-],
+            price: 3000,
+            menu: [
+                "mandi",
+                "mutton chops",
+                "coldrink",
+                "coaktail"
+            ]
+        }
+    ],
     deal4: [
         {
-        price: 3300,
-        menu: [
-            "chicken mancholian",
-            "desert",
-            "prawn",
-            "fish",
-            "coldrink"
-        ]
-    }]
+            price: 3300,
+            menu: [
+                "chicken mancholian",
+                "desert",
+                "prawn",
+                "fish",
+                "coldrink"
+            ]
+        }
+    ]
     ,
     deal5: [
         {
-        price: 4000,
-        menu: [
-            "prawn",
-            "mandi",
-            "chicken chaomin",
-            "fries",
-            "coldrink",
-            "hot dogs",
-            "desert"
-        ]
-    }
-],
+            price: 4000,
+            menu: [
+                "prawn",
+                "mandi",
+                "chicken chaomin",
+                "fries",
+                "coldrink",
+                "hot dogs",
+                "desert"
+            ]
+        }
+    ],
     deal6: [
         {
-        price: 5000,
-        menu: [
-            "mandi",
-            "mutton",
-            'hot wings',
-            "desert",
-            "prawwn",
-            "cheese naan",
-            "coldrinks"
-        ]
-    }
-],
+            price: 5000,
+            menu: [
+                "mandi",
+                "mutton",
+                'hot wings',
+                "desert",
+                "prawwn",
+                "cheese naan",
+                "coldrinks"
+            ]
+        }
+    ],
     buffet: [
         {
-        days: "only three days available for buffet",
-        tuesday: [
-            {
-               fourDishes: 2000,
-               fiveDishes: 3000,
-               uncountableDishes: 6000,
-            }
+            days: "only three days available for buffet",
+            tuesday: [
+                {
+                    fourDishes: 2000,
+                    fiveDishes: 3000,
+                    uncountableDishes: 6000,
+                }
+            ],
+            friday: [
+                {
+                    fourDishes: 1500,
+                    fiveDishes: 2500,
+                    uncountableDishes: 5000,
+                }
+            ],
+            sunday: [
+                {
+                    fourDishes: 3000,
+                    fiveDishes: 4000,
+                    uncountableDishes: 7000
+                }
+            ]
+        }
     ],
-        friday: [
-            {
-                fourDishes: 1500,
-                fiveDishes: 2500,
-                uncountableDishes: 5000,
-            }
+    salad: [
+        {
+            name: "Lasania Special Salad",
+            price: 440
+        },
+        {
+            name: "Chicken Pine Apple Salad",
+            price: 410
+        },
+        {
+            name: "Chicken Apple Salad",
+            price: 410
+        },
+        {
+            name: "Russian Salad",
+            price: 340
+        },
+        {
+            name: "Apple Cabbage salad",
+            price: 250
+        },
+        {
+            name: "Kachumar Salad",
+            price: 120
+        },
+        {
+            name: "Cole Slaw",
+            price: 140
+        },
+        {
+            name: "Fresh Green Salad",
+            price: 100
+        },
+        {
+            name: "Raita",
+            price: 100
+        },
+        {
+            name: "Plain Yogurt (Home Made)",
+            price: 100
+        }
     ],
-        sunday: [
-            {
-                fourDishes: 3000,
-                fiveDishes: 4000,
-                uncountableDishes: 7000 
-            }
-   ]
-   }
-]
+    lasaniaSpecialties: [
+        {
+            name: "Chicken Drum Sticks  (6 Pieces)",
+            price: 760
+         },
+        {
+            name: "Chicken Wings  (10 Pieces)",
+            price: 760
+         },
+        {
+            name: "French Fries",
+            price: 160
+         },
+        {
+            name: "fish craker",
+            price: 260
+         },
+    ],
+    chineseGravys: [
+        {
+            name: "Lasania Special Chicken (Sizzling)",
+            price: 920
+         },
+        {
+            name: "Special Manchurian (Sizzling)",
+            price: 920
+         },
+         {
+             name: "Roast Chicken with Spicy Garlic Sauce (Sizzling)",
+             price :920
+         },
+         {
+            name: "	Chicken Green Pepper  (Sizzling)",
+            price : 790
+         },
+         {
+            name: "Chicken Manchurian (Sizzling)",
+            price : 790
+         },
+         {
+            name: "Chicken Chili Dry",
+            price : 790
+         },
+         {
+            name: "Chicken Ginger (Sizzling)",
+            price : 790
+         },
+         {
+            name: "Chicken Sweet & Sour",
+            price : 770
+         },
+         {
+            name: "Chicken Garlic Sauce  (Sizzling)",
+            price : 860
+         },
+         {
+            name: "Black Pepper Chicken (Sizzling)",
+            price : 790
+         }
+    ],
+    freeHomeDelivery: "Free Home Delivery Service is available in all over the Branches in their surrounding localities.",
+    outdoorServices: "We have professional expertise in arranging outdoor parties and providing Outdoor Catering Services. We provide you from spoon to toothpick and let you fully enjoy your celeberation and give you 100% satisfaction that you did the right thing to choose kolachi to arrange your celeberation.",
+    indoorServices: [
+        "Birthday parties",
+        "Farewell parties",
+        "Meeting Area",
+        "light Music",
+        "reservations"
+    ]
 }
