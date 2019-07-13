@@ -62,46 +62,46 @@ let techkaro = {
 
 
 
-let whatsapp = {
-    appName: "whatsApp",
-    about: "for contact and fun",
-    description: "In this we can make a call,video call, we can send messages,we can upload pictures and status as well.",
-    howToUse: "For using this we need wifi connection or data connection",
-    contacts: [
-        {
-            name: "Miss Abeera",
-            lastmessage: "Kal bt karen??",
-            time: "9:30 PM yesterday",
-            contact: "0340345698",
-            profilePic: url(images / dp1.png),
-            isUnread: "true"
+// let whatsapp = {
+//     appName: "whatsApp",
+//     about: "for contact and fun",
+//     description: "In this we can make a call,video call, we can send messages,we can upload pictures and status as well.",
+//     howToUse: "For using this we need wifi connection or data connection",
+//     contacts: [
+//         {
+//             name: "Miss Abeera",
+//             lastmessage: "Kal bt karen??",
+//             time: "9:30 PM yesterday",
+//             contact: "0340345698",
+//             profilePic: url(images / dp1.png),
+//             isUnread: "true"
 
-        },
-        {
-            name: "Miss Khair-un-nisa",
-            lastmessage: "Miss",
-            time: "3:56 PM",
-            contact: "0322222298",
-            profilePic: url(images / dp2.png),
-            isUnread: "false"
-        },
-        {
-            name: "Areeba khan",
-            lastmessage: "Hahahahahaah......",
-            time: "3:56 AM",
-            contact: "0356666688",
-            profilePic: url(images/dp1.png),
-            isUnread: "true"
-        },
-        {
-            name: "Ramsha khan",
-            lastmessage: "Kal bt karen??",
-            time: "9:30 PM",
-            contact: "0340345698",
-            profilePic: url(images / dp4.png),
-            isUnread: "true"
-        }
+//         },
+//         {
+//             name: "Miss Khair-un-nisa",
+//             lastmessage: "Miss",
+//             time: "3:56 PM",
+//             contact: "0322222298",
+//             profilePic: url(images / dp2.png),
+//             isUnread: "false"
+//         },
+//         {
+//             name: "Areeba khan",
+//             lastmessage: "Hahahahahaah......",
+//             time: "3:56 AM",
+//             contact: "0356666688",
+//             profilePic: url(images/dp1.png),
+//             isUnread: "true"
+//         },
+//         {
+//             name: "Ramsha khan",
+//             lastmessage: "Kal bt karen??",
+//             time: "9:30 PM",
+//             contact: "0340345698",
+//             profilePic: url(images / dp4.png),
+//             isUnread: "true"
+//         }
 
 
-    ]
-}
+//     ]
+// }
