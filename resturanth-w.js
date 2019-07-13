@@ -312,7 +312,7 @@ let kolachi = {
             address: "Defence"
         }
     ],
-    
+
     managers: [
         {
             name: "Mohsin khan",
@@ -390,7 +390,7 @@ let kolachi = {
             address: "karachi"
         },
         {
-            
+
             name: "mahira ahmed",
             fatherName: "ahmed",
             Gender: "female",
@@ -539,6 +539,79 @@ let kolachi = {
         "kahwa",
         "water"
     ],
+    drinksPrice: [
+        {
+            name: "fanta",
+            price: [
+                {
+                regular: 50,
+                oneLtr: 80,
+                cane: 50,
+                twoLtr: 100,
+                twoAndHalfLtr: 150
+            }
+        ]
+        },
+        {
+            name: "pepsi",
+            price: [
+                {
+                regular: 50,
+                oneLtr: 80,
+                cane: 50,
+                twoLtr: 100,
+                twoAndHalfLtr: 150
+            }
+        ]
+        },
+        {
+            name: "cococola",
+            price: [
+                {
+                regular: 50,
+                oneLtr: 80,
+                cane: 50,
+                twoLtr: 100,
+                twoAndHalfLtr: 150
+            }
+        ]
+        },
+        {
+            name: "sprit",
+            price: [
+                {
+                regular: 50,
+                oneLtr: 80,
+                cane: 50,
+                twoLtr: 100,
+                twoAndHalfLtr: 150
+            }
+        ]
+        },
+        {
+            name: "due",
+            price: [{
+                regular: 50,
+                oneLtr: 80,
+                cane: 50,
+                twoLtr: 100,
+                twoAndHalfLtr: 150
+            }
+        ]
+        },
+        {
+            name: "seven up",
+            price: [
+                {
+                regular: 50,
+                oneLtr: 80,
+                cane: 50,
+                twoLtr: 100,
+                twoAndHalfLtr: 150
+            }
+        ]
+        }
+    ],
     dishesPrice: [
         {
             name: "malai boti",
@@ -579,210 +652,238 @@ let kolachi = {
         {
             name: "chicken shashlik",
             price: 1500
-        }, 
+        },
         {
             name: "cocktail",
-            price : 700
+            price: 700
         },
         {
             name: "rasmalai",
-            price : 500
+            price: 500
         },
         {
             name: "ice cream",
-            price : 1000
+            price: 1000
         },
         {
             name: "sweet",
-            price : 400
+            price: 400
         },
         {
             name: "beaf kabab",
-            price : 300,
+            price: 300,
         },
         {
             name: "reshmi kabab",
-            price : 500
+            price: 500
         },
         {
             name: "gola kabab",
-            price : 300
+            price: 300
         },
         {
             name: "chili prawn",
-            price : 1300
+            price: 1300
         },
         {
             name: "handi",
-            price : 2000
+            price: 2000
 
-        }, 
+        },
         {
             name: "mandi",
-            price : 1000
+            price: 1000
         },
         {
             name: "kheer",
-            price : 900
+            price: 900
         },
         {
             name: "tikka boti",
-            price : 1500
+            price: 1500
         },
         {
             name: "chaomin",
-            price : 500
+            price: 500
         },
         {
             name: "chicken shuarma",
-            price : 200
+            price: 200
         },
         {
             name: "chicken mancholian",
-            price : 2000
+            price: 2000
         },
         {
             name: "palao",
-            price : 1700
+            price: 1700
         },
         {
             name: "cheese roll",
-            price : 200
+            price: 200
         },
         {
             name: "beahri boti",
-            price : 2200
+            price: 2200
         },
         {
             name: "nihari",
-            price : 500
+            price: 500
         },
         {
             name: "chicken nihari",
-            price : 700
+            price: 700
         },
         {
             name: "chicjen balls",
-            price : 300
+            price: 300
         },
         {
             name: "paya",
-            price : 2300
+            price: 2300
         },
         {
             name: "mutton",
-            price : 3000
+            price: 3000
         },
         {
             name: "mutton chops",
-            price : 2400
+            price: 2400
         },
         {
             name: "hot dogs",
-            price : 1000
+            price: 1000
         },
         {
             name: "chicken wings",
-            price : 800,
+            price: 800,
         },
         {
             name: "burger",
-            price : 200
+            price: 200
         },
         {
             name: "zinger",
-            price : 500
+            price: 500
         },
         {
             name: "beaf burger",
-            price : 400
+            price: 400
         },
         {
             name: "pizza(fajita)small",
-            price : 1000
+            price: 1000
         },
         {
             name: "pizza(tikka)small",
-            price : 1000
+            price: 1000
         },
         {
             name: "pizza(malai)small",
-            price : 1000
+            price: 1000
+        },
+        {
+            name: "salad",
+            price: 300,
         }
     ],
     deal1: [
         {
-            price: 1000,
-            menu: [
-               "tikka",
-               "Roll",
-               "coldrink",
-               "fries",
-        ]       
-        }
-    ],
+        price: 1000,
+        menu: [
+            "tikka",
+            "Roll",
+            "coldrink",
+            "fries",
+        ]
+    }
+],
     deal2: [
         {
-            price: 2000,
-            menu: [
-                "chciken shashlik",
-                "chaommin",
-                "coldrinks",
-                "fries"
-            ]
-        }
-    ],
+        price: 2000,
+        menu: [
+            "chciken shashlik",
+            "chaommin",
+            "coldrinks",
+            "fries"
+        ]
+    }
+],
     deal3: [
         {
-            price: 3000,
-            menu: [
-                "mandi",
-                "mutton chops",
-                "coldrink",
-                "coaktail"
-            ]
-        }
-    ],
+        price: 3000,
+        menu: [
+            "mandi",
+            "mutton chops",
+            "coldrink",
+            "coaktail"
+        ]
+    }
+],
     deal4: [
-       {
-            price: 3300,
-            menu: [
-                "chicken mancholian",
-                "desert",
-                "prawn",
-                "fish",
-                "coldrink"
-            ]
-       }   
-    ],
+        {
+        price: 3300,
+        menu: [
+            "chicken mancholian",
+            "desert",
+            "prawn",
+            "fish",
+            "coldrink"
+        ]
+    }]
+    ,
     deal5: [
         {
-            price: 4000,
-            menu: [
-                "prawn",
-                "mandi",
-                "chicken chaomin",
-                "fries",
-                "coldrink",
-                "hot dogs",
-                "desert"
-            ]
-        }
-    ],
+        price: 4000,
+        menu: [
+            "prawn",
+            "mandi",
+            "chicken chaomin",
+            "fries",
+            "coldrink",
+            "hot dogs",
+            "desert"
+        ]
+    }
+],
     deal6: [
         {
-            price: 5000,
-            menu: [
-                "mandi",
-                "mutton",
-                'hot wings',
-                "desert",
-                "prawwn",
-                "cheese naan",
-                "coldrinks"
-            ]
-        }
+        price: 5000,
+        menu: [
+            "mandi",
+            "mutton",
+            'hot wings',
+            "desert",
+            "prawwn",
+            "cheese naan",
+            "coldrinks"
+        ]
+    }
+],
+    buffet: [
+        {
+        days: "only three days available for buffet",
+        tuesday: [
+            {
+               fourDishes: 2000,
+               fiveDishes: 3000,
+               uncountableDishes: 6000,
+            }
     ],
-    
-
+        friday: [
+            {
+                fourDishes: 1500,
+                fiveDishes: 2500,
+                uncountableDishes: 5000,
+            }
+    ],
+        sunday: [
+            {
+                fourDishes: 3000,
+                fiveDishes: 4000,
+                uncountableDishes: 7000 
+            }
+   ]
+   }
+]
 }
